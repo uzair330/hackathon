@@ -1,17 +1,22 @@
 import Image from "next/image";
 import { Button } from "../components/ui/button"
+import Pro from "./Pro";
+import Pro1 from "./PromoPortion/Pro1";
+import Pro4 from "./PromoPortion/Pro4";
+import Pro2 from "./PromoPortion/Pro2";
+import Pro3 from "./PromoPortion/Pro3";
 export default function Promotion() {
   return (
     <>
-      <div className="flex items-center justify-center uppercase text-[12px] font-semibold pt-6 pb-5 text-[#1F01FF] ">
+      <div className="flex items-center justify-center uppercase text-[12px] font-semibold md:pt-6 md:pb-5 mt-12 md:text-current text-xl md:text-[#1F01FF] text-[#1F01FF] ">
         PROMOTIONS
       </div>
       <div className="flex items-center justify-center uppercase text-3xl font-bold  pb-11">
-        Our Promotions Events
+       <span className="text-center">Our Promotions Events</span> 
       </div>
 
 
-      <div className="flex justify-center items-center mx-10">
+      {/* <div className="flex justify-center items-center mx-10">
         <div className="">
           <div className="h-48 w-[600px] bg-[#D6D6D8] mb-4">
             <div className="flex">
@@ -42,7 +47,34 @@ export default function Promotion() {
             <div className=""><Image src={"/pro3.webp"} width={240} height={240} alt="" /></div>
           </div>
         </div>
-      </div>
+      </div> */}
+      
+      
+{/*      
+      <Pro1 />
+      <Pro2 />
+      <Pro3 />
+      <Pro4 /> */}
+
+      <div className="grid md:grid-cols-2 items-center justify-center p-10  mb-0">
+        <div className="">
+        <div className=""><Pro1 /></div>
+        <div className=""><Pro2 /></div>
+        </div>
+        <div className="md:flex hidden">
+          <div className=""><Pro3 /></div>
+          <div className=""><Pro4 /></div>
+        </div>
+       </div>
+
+       <div className="grid md:grid-cols-2 items-center justify-center p-0  mt-0 ">
+        <div className="md:hidden">
+        <div className=""><Pro3 /></div>
+        <div className=""><Pro4 /></div>
+        </div>
+        
+       </div>
+
     </>
   );
 }
