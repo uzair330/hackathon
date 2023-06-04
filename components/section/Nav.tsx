@@ -6,8 +6,8 @@ import {ShoppingCartIcon} from "lucide-react"
 import Image from 'next/image'
 export const Nav = () => {
   return (
-    <nav>
-<div className="flex justify-between items-center px-28 py-5"> 
+    <nav className='mx-14'>
+<div className="flex justify-between items-center  "> 
 <div className="">
     <Image src={"/Logo.webp"} width={100} height={100} alt='Logo' />
 </div>

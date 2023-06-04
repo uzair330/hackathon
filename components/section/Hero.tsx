@@ -6,7 +6,7 @@ import { ShoppingCartIcon } from "lucide-react"
 import { Button } from "../../components/ui/button"
 export const Hero = () => {
   return (
-    <div className=" pt-16 pb-20">
+    <div className=" pt-16 pb-20 mx-14">
     <div className="flex ">
         <div className="">
             <div className="bg-[#E1EDFF] w-28 rounded-md mb-10 mt-4 flex justify-center items-center text-[#1F01FF] font-semibold p-2">Sale 70%</div>

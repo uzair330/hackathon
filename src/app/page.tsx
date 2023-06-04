@@ -6,11 +6,11 @@ import { Promotion02 } from '../../components/section/Promotion02'
 export default function Home() {
   return (
     <>
-    <div className="px-28">
+    
   <Hero />
  
   <Promotion02 />
-  </div>
+  
   </>
   )
 }

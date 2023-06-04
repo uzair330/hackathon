@@ -4,7 +4,7 @@ import React from 'react'
 export const Promotion02 = () => {
   return (
     
-    <div className="grid gap-4 lg:grid-cols-4 ">
+    <div className="grid gap-4 lg:grid-cols-4 mx-14">
   <div className="md:col-span-2 grid gap-4 ">
     <div className="bg-slate-500 h-[180px]  pr-3 ">
       <div className="flex justify-between items-center  ">
@@ -31,10 +31,11 @@ export const Promotion02 = () => {
               
     </div>
     </div>
+    </div>
 
 
 
-  </div>
+  
   <div className="bg-blue-700 h-[376px] ">
     <div className="px-8 py-5">
     <div className="nowrap">Flex Sweatshirt</div>
